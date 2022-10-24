@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+.root{
+    --primary-color:#FFA233;
+}
+
+body{
+    margin-left: 25%;
+    max-width: 55%;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
 textarea{
     width: 80%;
     height: 10vh;
@@ -12,4 +22,26 @@ textarea{
     margin: 1rem;
     padding: 1rem;
    
+}
+.container{
+    background-color: var(--primary-color);
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+#txt-center{
+    text-align: center;
+    padding-top: 1rem;
+}
+footer{
+    background-color: var(--primary-color);
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+#btn-translate{
+    margin-left: 2%;
 }
